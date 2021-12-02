@@ -11,6 +11,7 @@ public class Launcher {
 
         if(args.length==1 && args[0].equals("-interactive"))
         {
+
             SecureRandom random = new SecureRandom();
             long randomNumber = random.nextInt(100); // génère un nombre entre 0 (inclus) et 100 (exclus)
             Player player = new HumanPlayer();
@@ -27,6 +28,7 @@ public class Launcher {
         }
         else
             l.log("Erreur Argument :\n -interactive => partie interactive\n -auto [0-9] => partie robot");
+
 
 
 
