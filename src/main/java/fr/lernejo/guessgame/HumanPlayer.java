@@ -20,6 +20,5 @@ public class HumanPlayer implements Player{
             logger.log("Plus Grand");
         else
             logger.log("Plus Petit ");
-
     }
 }

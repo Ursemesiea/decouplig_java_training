@@ -25,7 +25,5 @@ public class ComputerPlayer implements Player {
             logger.log("Plus Petit");
             max = (max + min) / 2;
         }
-
     }
 }
-

@@ -56,6 +56,6 @@ public class Simulation {
         Timestamp timestamp=new Timestamp(TimeTotal);
         logger.log("Temps : "+new SimpleDateFormat("mm:ss.SSS").format(timestamp));
 
-
     }
 }
+
