@@ -9,5 +9,4 @@ public class LoggerFactory {
         return new CompositeLogger(new ContextualLogger(new ConsoleLogger(),name) , new ContextualLogger(new FilteredLogger(new FileLogger("logs.txt"),condition),name));
     }
 
-
 }
